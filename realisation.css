@@ -1,0 +1,19 @@
+.grid-container{
+   height: 600px;
+   display: grid;
+   grid-template-columns: 250px 250px 250px;
+   grid-template-rows:  150px 150px;
+   padding-left: 40px;
+
+}
+  
+.images{
+    width: 240px;
+    height: 140px;
+    border-radius: 10px;
+   }
+   .images:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    }

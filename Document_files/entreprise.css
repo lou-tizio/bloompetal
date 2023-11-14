@@ -1,0 +1,17 @@
+.equipe{
+
+       border: 2px solid rgb(138, 134, 134);
+       width: 300px;
+       height: 300px;
+       border-radius: 15px;
+}
+#entreprise{
+display: flex;
+}
+#accueil{
+    display:flex;
+}
+.entreprise-footer{
+    width: 5px;
+    height: 5px;
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <nav class="menu" id="nav">
+        <span class="nav-item active">
+            <a href="index.html">Home</a>
+        </span>
+        <span class="nav-item">
+            <span class="icon">
+                <i data-feather="search"></i>
+            </span>
+            <a href="entreprise.html">Entreprise</a>
+        </span>
+        <span class="nav-item">
+            <a href="realisation.html">Réalisations</a>
+        </span>
+        <span class="nav-item">
+            <a href="contact.html">Contact</a>
+        </span>
+        <input type="text" placeholder="Search..">
+    </nav>
+    <div>
+        <h1 class="title">Contacter Nous</h1>
+        <!-- <img src="images/image1.jpg" alt="" class="image-contact"/>  -->
+    </div>
+      <form id="formulaire">
+            <select id="select-civilite">
+                <option value="valeur1">Civilité</option>
+                <option value="valeur1">Madame</option>
+                <option value="valeur2">Monsieur</option>
+              </select>
+            <label for="fname"></label><br>
+            <input type="text" class="form-input" placeholder="Saissez votre Nom">
+            <label for="lname"></label><br><br>
+            <input type="text" class="form-input" placeholder="Saissez votre Prenom">
+            <label for="adresse"></label><br><br>
+            <input type="text" class="form-input" placeholder="Adresse postale"> <br> <br>
+
+            <input type="checkbox" id="terms" required>
+            <label for="terms">J'ai lu et j'accepte les CGV.</label> <br> <br>
+          <button type="button" class="button-width">Valider</button>
+      </form>
+      <footer>
+        
+      </footer>
+    </div>
+</body>
+</html>
